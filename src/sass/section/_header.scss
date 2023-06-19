@@ -18,16 +18,15 @@
 h1 {
   font-family: var(--text-title-hero);
 }
-.container {
+
+.container--header {
+  background: #ffb8ca;
+  margin: 0 auto;
   padding-left: 16px;
   padding-right: 16px;
   position: relative;
   width: 320px;
   height: 502px;
-}
-.container--header {
-  background: #ffb8ca;
-  margin: 0 auto;
 }
 
 .header__logo-icon--mobile {
@@ -532,13 +531,13 @@ h1 {
 }
 
 @media screen and (min-width: 320px) {
-  .container {
+  .container--header {
     width: 320px;
     height: 502px;
   }
 }
 @media screen and (min-width: 768px) {
-  .container {
+  .container--header {
     width: 768px;
     height: 416px;
   }
@@ -741,7 +740,7 @@ h1 {
   }
 }
 @media screen and (min-width: 1280px) {
-  .container {
+  .container--header {
     height: 664px;
     width: 1280px;
   }
