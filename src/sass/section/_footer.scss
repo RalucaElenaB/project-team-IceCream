@@ -39,7 +39,7 @@ ul {
 }
 
 .container {
-  width: 1280px;
+  // width: 1280px;
   margin: 0 auto;
 }
 
@@ -47,6 +47,9 @@ ul {
   background-color: #fff5f6;
   margin-top: 0;
   display: flexbox;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1280px;
 }
 
 .footer-title {

@@ -1,6 +1,6 @@
 (() => {
   const refs = {
-    openModalBtn: document.querySelector('[data-modal-open-pic1]'),
+    openModalBtn: document.querySelector('[data-modal-open-products-pic1]'),
     closeModalBtn: document.querySelector('[data-modal-close-pic1]'),
     modal: document.querySelector('[data-modal-pic1]'),
   };
@@ -14,7 +14,7 @@
 })();
 (() => {
   const refs = {
-    openModalBtn: document.querySelector('[data-modal-open-pic2]'),
+    openModalBtn: document.querySelector('[data-modal-open-products-pic2]'),
     closeModalBtn: document.querySelector('[data-modal-close-pic2]'),
     modal: document.querySelector('[data-modal-pic2]'),
   };
@@ -28,7 +28,7 @@
 })();
 (() => {
   const refs = {
-    openModalBtn: document.querySelector('[data-modal-open-pic3]'),
+    openModalBtn: document.querySelector('[data-modal-open-products-pic3]'),
     closeModalBtn: document.querySelector('[data-modal-close-pic3]'),
     modal: document.querySelector('[data-modal-pic3]'),
   };
