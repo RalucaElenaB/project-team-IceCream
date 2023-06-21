@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Titan+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Titan+One&display=swap');
 :root {
-  --text-font-family: "DM Sans", sans-serif;
-  --text-title-hero: "Titan One", cursive;
+  --text-font-family: 'DM Sans', sans-serif;
+  --text-title-hero: 'Titan One', cursive;
   --text-color-light: #ffff;
   --transition-effect: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -49,7 +49,7 @@ h1 {
 }
 
 .header__link {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
@@ -103,7 +103,7 @@ h1 {
 }
 
 .hero__title {
-  font-family: "Titan One";
+  font-family: 'Titan One';
   font-style: normal;
   font-weight: 400;
   margin-top: 0;
@@ -210,7 +210,11 @@ h1 {
 }
 
 .header__image-icecream--backround {
-  background-image: url("/images/header_icecream1.png");
+  background-image: url('/images/header_icecream/header_icecream_m@1x.webp');
+  background-image: image-set(
+    url('/images/header_icecream/header_icecream_m@1x.webp') 1x,
+    url('/images/header_icecream/header_icecream_m@2x.webp') 2x
+  );
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -302,7 +306,7 @@ h1 {
   flex-direction: column;
 
   & > *:nth-child(1) {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-weight: 400;
     font-size: 12px;
     line-height: 1.16;
@@ -317,7 +321,7 @@ h1 {
   margin-top: 20px;
 
   & > *:nth-child(1) {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-weight: 400;
     font-size: 12px;
     line-height: 1.16;
@@ -331,7 +335,7 @@ h1 {
   gap: 20px;
 }
 .form__label {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
@@ -406,7 +410,7 @@ h1 {
 }
 .button--from-modal {
   display: flex;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -483,7 +487,7 @@ h1 {
   background: #ffffff;
   color: #d41443;
   border-radius: 22px;
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -510,7 +514,7 @@ h1 {
 }
 
 .mobile-menu__link {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -629,6 +633,11 @@ h1 {
     top: 43px;
   }
   .header__image-icecream--backround {
+    background-image: url('/images/header_icecream/header_icecream_t@1x.webp');
+    background-image: image-set(
+      url('/images/header_icecream/header_icecream_t@1x.webp') 1x,
+      url('/images/header_icecream/header_icecream_t@2x.webp') 2x
+    );
     width: 143px;
     height: 336px;
     left: 322px;
@@ -638,7 +647,11 @@ h1 {
     display: block;
   }
   .hero__image-milk--background {
-    background-image: url("/images/header__milk1.png");
+    background-image: url('/images/header_milk/header_milk_t@1x.webp');
+    background-image: image-set(
+      url('/images/header_milk/header_milk_t@1x.webp') 1x,
+      url('/images/header_milk/header_milk_t@2x.webp') 2x
+    );
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -661,7 +674,7 @@ h1 {
   .hero__text {
     width: 114px;
     height: 48px;
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-size: 8px;
     line-height: 12px;
     font-weight: 400;
@@ -715,7 +728,11 @@ h1 {
     top: 152px;
   }
   .header__image-girl--background {
-    background-image: url("/images/header_girl1.png");
+    background-image: url('/images/header_girl/header_girl_t@1x.webp');
+    background-image: image-set(
+      url('/images/header_girl/header_girl_t@1x.webp') 1x,
+      url('/images/header_girl/header_girl_t@2x.webp') 2x
+    );
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -781,7 +798,11 @@ h1 {
     display: block;
   }
   .header__image-icecream--backround {
-    background-image: url("/images/header_icecream1.png");
+    background-image: url('/images/header_icecream/header_icecream_d@1x.webp');
+    background-image: image-set(
+      url('/images/header_icecream/header_icecream_t@1x.webp') 1x,
+      url('/images/header_icecream/header_icecream_t@2x.webp') 2x
+    );
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -793,6 +814,11 @@ h1 {
     z-index: 3;
   }
   .header__image-girl--background {
+    background-image: url('/images/header_girl/header_girl1_d@1x.webp');
+    background-image: image-set(
+      url('/images/header_girl/header_girl1_d@1x.webp') 1x,
+      url('/images/header_girl/header_girl1_d@2x.webp') 2x
+    );
     width: 304px;
     height: 241px;
     left: 960px;
@@ -843,6 +869,11 @@ h1 {
     top: 244px;
   }
   .hero__image-milk--background {
+    background-image: url('/images/header_milk/header_milk_d@1x.webp');
+    background-image: image-set(
+      url('/images/header_milk/header_milk_d@1x.webp') 1x,
+      url('/images/header_milk/header_milk_d@2x.webp') 2x
+    );
     width: 213px;
     height: 216px;
     position: absolute;
@@ -856,7 +887,7 @@ h1 {
   .hero__text {
     width: 200px;
     height: 78px;
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-size: 14px;
     line-height: 20px;
     color: #ffffff;
