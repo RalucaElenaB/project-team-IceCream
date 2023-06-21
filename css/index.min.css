@@ -220,8 +220,8 @@ h1 {
 }
 
 .header__image-icecream--backround {
-  background-image: url("/images/header_icecream/header_icecream_m@1x.webp");
-  background-image: image-set(url("/images/header_icecream/header_icecream_m@1x.webp") 1x, url("/images/header_icecream/header_icecream_m@2x.webp") 2x);
+  background-image: url("/images_header/header_icecream_m@1x.webp");
+  background-image: image-set(url("/images_header/header_icecream_m@1x.webp") 1x, url("/images_header/header_icecream_m@2x.webp") 2x);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -633,8 +633,8 @@ h1 {
     top: 43px;
   }
   .header__image-icecream--backround {
-    background-image: url("/images/header_icecream/header_icecream_t@1x.webp");
-    background-image: image-set(url("/images/header_icecream/header_icecream_t@1x.webp") 1x, url("/images/header_icecream/header_icecream_t@2x.webp") 2x);
+    background-image: url("/images_header/header_icecream_t@1x.webp");
+    background-image: image-set(url("/images_header/header_icecream_t@1x.webp") 1x, url("/images_header/header_icecream_t@2x.webp") 2x);
     width: 143px;
     height: 336px;
     left: 322px;
@@ -644,8 +644,8 @@ h1 {
     display: block;
   }
   .hero__image-milk--background {
-    background-image: url("/images/header_milk/header_milk_t@1x.webp");
-    background-image: image-set(url("/images/header_milk/header_milk_t@1x.webp") 1x, url("/images/header_milk/header_milk_t@2x.webp") 2x);
+    background-image: url("/images_header/header_milk_t@1x.webp");
+    background-image: image-set(url("/images_header/header_milk_t@1x.webp") 1x, url("/images_header/header_milk_t@2x.webp") 2x);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -719,8 +719,8 @@ h1 {
     top: 152px;
   }
   .header__image-girl--background {
-    background-image: url("/images/header_girl/header_girl_t@1x.webp");
-    background-image: image-set(url("/images/header_girl/header_girl_t@1x.webp") 1x, url("/images/header_girl/header_girl_t@2x.webp") 2x);
+    background-image: url("/images_header/header_girl_t@1x.webp");
+    background-image: image-set(url("/images_header/header_girl_t@1x.webp") 1x, url("/images_header/header_girl_t@2x.webp") 2x);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -782,8 +782,8 @@ h1 {
     display: block;
   }
   .header__image-icecream--backround {
-    background-image: url("/images/header_icecream/header_icecream_d@1x.webp");
-    background-image: image-set(url("/images/header_icecream/header_icecream_t@1x.webp") 1x, url("/images/header_icecream/header_icecream_t@2x.webp") 2x);
+    background-image: url("/images_header/header_icecream_d@1x.webp");
+    background-image: image-set(url("/images_header/header_icecream_t@1x.webp") 1x, url("/images_header/header_icecream_t@2x.webp") 2x);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -795,8 +795,8 @@ h1 {
     z-index: 3;
   }
   .header__image-girl--background {
-    background-image: url("/images/header_girl/header_girl1_d@1x.webp");
-    background-image: image-set(url("/images/header_girl/header_girl1_d@1x.webp") 1x, url("/images/header_girl/header_girl1_d@2x.webp") 2x);
+    background-image: url("/images_header/header_girl1_d@1x.webp");
+    background-image: image-set(url("/images_header/header_girl1_d@1x.webp") 1x, url("/images_header/header_girl1_d@2x.webp") 2x);
     width: 304px;
     height: 241px;
     left: 960px;
@@ -847,8 +847,8 @@ h1 {
     top: 244px;
   }
   .hero__image-milk--background {
-    background-image: url("/images/header_milk/header_milk_d@1x.webp");
-    background-image: image-set(url("/images/header_milk/header_milk_d@1x.webp") 1x, url("/images/header_milk/header_milk_d@2x.webp") 2x);
+    background-image: url("/images_header/header_milk_d@1x.webp");
+    background-image: image-set(url("/images_header/header_milk_d@1x.webp") 1x, url("/images_header/header_milk_d@2x.webp") 2x);
     width: 213px;
     height: 216px;
     position: absolute;
